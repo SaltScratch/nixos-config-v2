@@ -47,7 +47,7 @@
   services.xserver.enable = true;
 
   # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
+  services.displayManager.ly.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
@@ -90,6 +90,8 @@
       nextcloud-client
       mc
       vscodium-fhs
+      kitty
+      wofi
     ];
   };
 
@@ -98,6 +100,10 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  # hyprland
+  programs.hyprland.enable = true;
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
