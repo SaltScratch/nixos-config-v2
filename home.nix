@@ -16,7 +16,7 @@
     mc
     neofetch
     nextcloud-client
-    wofi
+    rofi-wayland
     thunderbird
     vscodium-fhs
   ];
@@ -24,6 +24,16 @@
   # programs
   programs.firefox.enable = true;
   programs.kitty.enable = true;
+
+  # hyprland
+  wayland.windowManager.hyprland.enable = true;
+  wayland.windowManager.hyprland.extraConfig = builtins.readFile ./hyprland/hyprland.conf;
+
+  # waybar
+  programs.waybar = {
+    enable = true;
+    package = pkgs.waybar;
+  };
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
