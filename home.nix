@@ -7,10 +7,23 @@
   home.homeDirectory = "/home/allan";
 
   # Packages that should be installed to the user profile.
-  home.packages = [                               
-    pkgs.htop
-    pkgs.fortune
+  home.packages = with pkgs; [                               
+    btop
+    font-awesome
+    gh
+    git
+    killall
+    mc
+    neofetch
+    nextcloud-client
+    wofi
+    thunderbird
+    vscodium-fhs
   ];
+
+  # programs
+  programs.firefox.enable = true;
+  programs.kitty.enable = true;
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage

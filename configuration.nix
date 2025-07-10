@@ -45,9 +45,9 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-
+  
   # Enable the GNOME Desktop Environment.
-  services.displayManager.ly.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
@@ -84,19 +84,9 @@
     description = "Allan Cairns";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      git
-      gh
-      thunderbird
-      nextcloud-client
-      mc
-      vscodium-fhs
-      kitty
-      wofi
+      # wget      
     ];
   };
-
-  # Install firefox.
-  programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
