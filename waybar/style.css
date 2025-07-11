@@ -20,13 +20,13 @@ tooltip label {
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: white;
+  color: black;
   border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
   background: #64727d;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
 }
 
 #mode,
@@ -55,6 +55,7 @@ tooltip label {
 #mode,
 #idle_inhibitor,
 #scratchpad,
+#workspaces,
 #mpd {
   margin: 2px;
   padding-left: 4px;

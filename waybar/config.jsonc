@@ -6,13 +6,12 @@
     "spacing": 2,
     "modules-left": [
       "custom/launcher",
-      "hyprland/window",
-      "mpd"
+      "hyprland/workspaces",
+      "hyprland/window"
     ],
     "modules-center": [
     ],
     "modules-right": [
-      "temperature",
       "cpu",
       "memory",
       "network",
@@ -23,7 +22,7 @@
       "clock"
     ],
     "hyprland/window": {
-      "format": "{title}",
+      "format": "{class}",
       "max-length": 20
     },
     "custom/launcher": {
@@ -105,6 +104,16 @@
       },
       "on-click": "pavucontrol",
       "on-click-right": "foot -a pw-top pw-top"
+    },
+    "hyprland/workspaces": {
+      "format": "{name}:{icon}",
+      "format-icons": {
+        "active": "",
+        "default": ""
+      },
+      "persistent-workspaces": {
+        "*": 4 // 4 workspaces by default on every monitor
+      }
     }
   }
 ]
