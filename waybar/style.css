@@ -7,7 +7,7 @@
 
 window#waybar {
   background: rgba(255, 255, 255, 0.5);
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 tooltip {
@@ -20,13 +20,13 @@ tooltip label {
 #workspaces button {
   padding: 0 5px;
   background: transparent;
-  color: black;
+  color: white;
   border-bottom: 3px solid transparent;
 }
 
 #workspaces button.focused {
   background: #64727d;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
 }
 
 #mode,
@@ -60,7 +60,7 @@ tooltip label {
   margin: 2px;
   padding-left: 4px;
   padding-right: 4px;
-  color: #000000;
+  color: white;
 }
 
 .modules-left > widget:first-child > #workspaces {
