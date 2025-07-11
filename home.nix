@@ -16,7 +16,7 @@
     mc
     neofetch
     nextcloud-client
-    rofi-wayland
+    wofi
     thunderbird
     vscodium-fhs
   ];
