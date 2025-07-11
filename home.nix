@@ -34,6 +34,8 @@
     enable = true;
     package = pkgs.waybar;
   };
+  xdg.configFile."waybar/config.jsonc".source = ./waybar/config.jsonc;
+  xdg.configFile."waybar/style.css".source = ./waybar/style.css;
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage

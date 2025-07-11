@@ -82,7 +82,7 @@
   users.users.allan = {
     isNormalUser = true;
     description = "Allan Cairns";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "input" ];
     packages = with pkgs; [
       # wget      
     ];
