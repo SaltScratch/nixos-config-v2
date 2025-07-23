@@ -17,4 +17,4 @@ NixOS/Hyprland flake config for my thinkpad
 - https://discourse.nixos.org/t/set-up-wifi-minimal-system/8554
 - https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 - https://wiki.hyprland.org/Configuring/Binds/
-- 
+- https://github.com/kamlendras/waybar-macos-sequoia
