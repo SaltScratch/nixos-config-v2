@@ -6,6 +6,7 @@
     "spacing": 2,
     "modules-left": [
       "custom/launcher",
+      "custom/keybindings",
       "hyprland/workspaces",
       "hyprland/window"
     ],
@@ -86,6 +87,11 @@
       "format-linked": " {ifname} (No IP)",
       "format-disconnected": "Disconnected ⚠ {ifname}",
       "format-alt": " {ifname}: {ipaddr}/{cidr}"
+    },
+    "custom/keybindings": {
+        "format": "",
+        "on-click": "bash ~/.config/waybar/show-keybinds.sh",
+        "tooltip": false
     },
     "pulseaudio": {
       "scroll-step": 5,

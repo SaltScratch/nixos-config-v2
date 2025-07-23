@@ -37,9 +37,12 @@
 
   # Map dotfiles
   home.file = {
+    # hyprland
+    ".config/hypr/keybinds.conf".source = ./hyprland/keybinds.conf;
     # waybar
     ".config/waybar/config".source = ./waybar/config.jsonc;
     ".config/waybar/style.css".source = ./waybar/style.css;
+    ".config/waybar/show-keybinds.sh".source = ./waybar/show-keybinds.sh;
   };
 
   # This value determines the Home Manager release that your
