@@ -19,6 +19,7 @@
     wofi
     thunderbird
     vscodium-fhs
+    hyprshot
   ];
 
   # programs
