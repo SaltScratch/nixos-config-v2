@@ -27,7 +27,7 @@
       "max-length": 20
     },
     "custom/launcher": {
-      "format": "🔍",
+      "format": "  ",
       "on-click": "wofi --show drun",
       "tooltip": false
     },
