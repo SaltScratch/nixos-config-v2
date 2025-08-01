@@ -11,10 +11,9 @@
     btop
     font-awesome
     gh
-    git
     killall
     mc
-    neofetch
+    fastfetch
     nextcloud-client
     wofi
     thunderbird
