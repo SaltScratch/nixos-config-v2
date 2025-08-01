@@ -20,6 +20,7 @@
     thunderbird
     vscodium-fhs
     hyprshot
+    yad
   ];
 
   # programs
