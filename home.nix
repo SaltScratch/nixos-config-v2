@@ -26,6 +26,13 @@
   programs.firefox.enable = true;
   programs.kitty.enable = true;
 
+  # git
+  programs.git = {
+    enable = true;
+    userName  = "Allan Cairns";
+    userEmail = "allan@cairns.id.au";
+  };
+
   # hyprland
   wayland.windowManager.hyprland.enable = true;
   wayland.windowManager.hyprland.extraConfig = builtins.readFile ./hyprland/hyprland.conf;
