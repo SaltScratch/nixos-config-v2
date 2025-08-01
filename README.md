@@ -2,12 +2,12 @@
 NixOS/Hyprland flake config for my thinkpad
 
 ## Setup
-- install nixos as normal with whatever base DE you prefer
-- install git
-- clone this repo
-- open repo folder in a terminal
-- ./rebuild-switch.sh
+- nix-shell -p git curl
+- sh <(curl -L https://github.com/giddisey/nixos-config-v2/raw/main/install.sh)
 
+## rebuilding after tweaks
+- ~/nixos-config-v2/rebuild-switch.sh
+  
 ## Resources
 - https://home-manager.dev/manual/23.05/index.html#ch-nix-flakes
 - https://nixos.asia/en/nixos-install-flake
@@ -18,3 +18,4 @@ NixOS/Hyprland flake config for my thinkpad
 - https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 - https://wiki.hyprland.org/Configuring/Binds/
 - https://github.com/kamlendras/waybar-macos-sequoia
+- https://github.com/JaKooLit/NixOS-Hyprland
