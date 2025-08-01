@@ -19,7 +19,7 @@
       "pulseaudio",
       "battery",
       "tray",
-      "idle_inhibitor",
+//      "idle_inhibitor",
       "clock"
     ],
     "hyprland/window": {
