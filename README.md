@@ -7,7 +7,13 @@ NixOS/Hyprland flake config for my thinkpad
 
 ## rebuilding after tweaks
 - ~/nixos-config-v2/rebuild-switch.sh
-  
+
+## todo
+- polkit
+- idle/screen lock
+- bash aliases
+- apps (office, text editor, pdf viewer, image viewer/editor)
+
 ## Resources
 - https://home-manager.dev/manual/23.05/index.html#ch-nix-flakes
 - https://nixos.asia/en/nixos-install-flake
