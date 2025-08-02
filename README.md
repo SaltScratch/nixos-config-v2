@@ -14,6 +14,7 @@ NixOS/Hyprland flake config for my thinkpad
 - remove hardware config file
 - idle/screen lock
 - bash aliases
+- why does nextcloud insist on re-authenticating every logon?
 - apps (office, text editor, pdf viewer, image viewer/editor)
 
 ## Resources
