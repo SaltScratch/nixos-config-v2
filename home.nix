@@ -51,6 +51,7 @@
     ".config/waybar/config".source = ./waybar/config.jsonc;
     ".config/waybar/style.css".source = ./waybar/style.css;
     ".config/waybar/show-keybinds.sh".source = ./waybar/show-keybinds.sh;
+    ".config/waybar/keybinds.txt".source = ./waybar/keybinds.txt;
   };
 
   # This value determines the Home Manager release that your

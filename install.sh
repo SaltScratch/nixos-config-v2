@@ -7,5 +7,8 @@ sudo cp -f /etc/nixos/hardware-configuration.nix .
 sudo chown $USER ./hardware-configuration.nix
 git add hardware-configuration.nix
 
+# generate keybinds cheatsheet
+sh ./waybar/generate-keybinds.sh
+
 # rebuild/switch
 sudo nixos-rebuild switch --flake .
