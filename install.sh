@@ -5,7 +5,7 @@ cd ~/nixos-config-v2 || exit
 # copy hardware config
 sudo cp -f /etc/nixos/hardware-configuration.nix .
 sudo chown $USER ./hardware-configuration.nix
-git add hardware-configuration.nix
+git add -N .
 
 # generate keybinds cheatsheet
 sh ./waybar/generate-keybinds.sh
