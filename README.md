@@ -9,6 +9,7 @@ NixOS/Hyprland flake config for my thinkpad
 - ~/nixos-config-v2/rebuild-switch.sh
 
 ## todo
+- capture username, full name and email during install rather than hard code
 - polkit
 - idle/screen lock
 - bash aliases
