@@ -11,7 +11,6 @@ NixOS/Hyprland flake config for my thinkpad
 ## todo
 - capture username, full name and email during install rather than hard code
 - polkit
-- remove hardware config file
 - idle/screen lock
 - bash aliases
 - why does nextcloud insist on re-authenticating every logon?
