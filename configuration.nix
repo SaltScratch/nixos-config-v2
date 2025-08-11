@@ -26,7 +26,8 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "Australia/Perth";
+  #time.timeZone = "Australia/Perth";
+  services.automatic-timezoned.enable = true;
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_AU.UTF-8";
